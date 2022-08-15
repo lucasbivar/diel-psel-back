@@ -62,7 +62,7 @@ taskSchema.virtual("date").get(function(){
 
 taskSchema.virtual("time").get(function(){
   const date = new Date(this.dateTime);
-  let timeToString = `${zeroPad(date.getUTCHours(), 2)}:${zeroPad(date.getMinutes(), 2)}`;
+  let timeToString = `${zeroPad(date.getHours(), 2)}:${zeroPad(date.getMinutes(), 2)}`;
 
   return timeToString;
 });
