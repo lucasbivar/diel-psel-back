@@ -22,8 +22,12 @@ const taskSchema = new mongoose.Schema({
   },
   status: { 
     type: String,
-    enum: ["ToDo", "Doing", "Done", "Deleted"],
+    enum: ["ToDo", "Doing", "Done"],
     default: "ToDo"
+  },
+  deleted: {
+    type: Boolean,
+    default: false,
   },
   deletedTime: {
     type: Date,
