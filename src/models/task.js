@@ -51,20 +51,4 @@ taskSchema.virtual("durationToString").get(function(){
   return toString;
 });
 
-taskSchema.virtual("date").get(function(){
-  const date = new Date(this.dateTime);
-  let dateToString = `${
-    zeroPad(date.getDate(),2)
-  }-${zeroPad(date.getMonth()+1, 2)}-${date.getFullYear()}`;
-
-  return dateToString;
-});
-
-taskSchema.virtual("time").get(function(){
-  const date = new Date(this.dateTime);
-  let timeToString = `${zeroPad(date.getHours(), 2)}:${zeroPad(date.getMinutes(), 2)}`;
-
-  return timeToString;
-});
-
 module.exports = mongoose.model("Task", taskSchema);
