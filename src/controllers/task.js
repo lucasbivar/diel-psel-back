@@ -41,7 +41,8 @@ class TaskController {
   
   async deleteTask (req, res) {
     try{
-      const task = await Task.findOneAndUpdate({_id: req.params.id}, {deleted: true}, {new: true});
+      const currDate = new Date();
+      const task = await Task.findOneAndUpdate({_id: req.params.id}, {deleted: true, deletedTime: currDate}, {new: true});
     
       return res.status(201).json({task});
 
