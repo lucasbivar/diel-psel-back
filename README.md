@@ -13,20 +13,20 @@
 
 <h2 id="conteudos">Conteúdos</h2>
 
-[➜ Sobre o projeto](#🔎-sobre-o-projeto)<br>
-[➜ O que aprendi/fixei](#📚-o-que-aprendi-e-fixei)<br>
-[➜ Rotas da API](#🌐-rotas-da-api)<br>
-[➜ Como rodar na sua máquina](#ℹ️-como-rodar-na-sua-máquina)<br>
+[➜ Sobre o projeto](#sobre-o-projeto)<br>
+[➜ O que aprendi/fixei](#o-que-aprendi-e-fixei)<br>
+[➜ Rotas da API](#rotas-da-api)<br>
+[➜ Como rodar na sua máquina](#como-rodar-na-sua-máquina)<br>
 
 ---
 
-## 🔎 Sobre o projeto
+## Sobre o projeto
 
 <sup>[Voltar ao topo](#conteudos)</sup><br>
 
 O objetivo do desafio técnico é construir o back-end e o front-end de uma SPA de calendário de tarefas do dia utilizando uma stack que você sinta confortável, pensando sempre em performance, segurança e escalabilidade. O presente repositório contém o código e informações acerca do Back-end da aplicação, para acessar o repositório do Front-end clique [aqui](https://github.com/lucasbivar/diel-psel-front).
 
-Para ver o funcionamento do Back-end e do Front-end não é necessário rodar o código na sua máquina, uma vez que ambos já estão hospedados (Se tiver interesse em rodar, siga o [tutorial](#ℹ️-como-rodar-na-sua-máquina) no fim do README). Links do resultado final do desafio já hospedado:
+Para ver o funcionamento do Back-end e do Front-end não é necessário rodar o código na sua máquina, uma vez que ambos já estão hospedados (Se tiver interesse em rodar, siga o [tutorial](#como-rodar-na-sua-máquina) no fim do README). Links do resultado final do desafio já hospedado:
 
 - Back-end: 
   - https://task-back-diel.herokuapp.com/api/task
@@ -55,7 +55,7 @@ A aplicação realiza o CRUD da API (Create, Read, Update and Delete) e possui a
 
 ---
 
-## 📚 O que aprendi e fixei
+## O que aprendi e fixei
 
 <sup>[Voltar ao topo](#conteudos)</sup><br>
 
@@ -71,7 +71,9 @@ Além de entender melhor como o Javascript trata os diferentes fusos horários n
 
 ---
 
-## 🌐 Rotas da API
+## Rotas da API
+
+<sup>[Voltar ao topo](#conteudos)</sup><br>
 
 ### ➜ Tarefas
   <details> 
@@ -174,13 +176,14 @@ Além de entender melhor como o Javascript trata os diferentes fusos horários n
 
   ```
   /api/task/:id
-```
+  ```
  </details>
 
 
 ---
 
-## ℹ️ Como rodar na sua máquina
+## Como rodar na sua máquina
+
 
 <sup>[Voltar ao topo](#conteudos)</sup><br>
 
